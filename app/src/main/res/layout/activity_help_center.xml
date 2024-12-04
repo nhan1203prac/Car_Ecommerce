@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.HelpCenterActivity">
+
+    <LinearLayout
+        android:id="@+id/top_helpcenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/backIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back_svgrepo_com"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Trung Tâm Hỗ Trợ"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_chat"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_helpcenter">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selection_bg"
+            android:drawableStart="@drawable/ic_customerservice"
+            android:drawablePadding="10dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Dịch Vụ Khách Hàng"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selection_bg"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Email"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selection_bg"
+            android:drawableStart="@drawable/ic_language"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Website"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selection_bg"
+            android:drawableStart="@drawable/ic_fb"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Facebook"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selection_bg"
+            android:drawableStart="@drawable/ic_tw"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Twitter"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selection_bg"
+            android:drawableStart="@drawable/ic_ins"
+            android:drawablePadding="20dp"
+            android:gravity="start"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:text="Instagram"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

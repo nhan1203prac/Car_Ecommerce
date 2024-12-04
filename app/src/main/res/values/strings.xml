@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">cartAndOrder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_post_car">
+        Nhập mô tả tại đây : \n
+        - Năm sản xuất\n
+        - Tình trạng\n
+        - Số Km đã đi\n
+        - Xuất xứ\n
+        - Màu ngoại thất\n
+        - Số chỗ ngồi\n
+        - Các chi tiết khác
+    </string>
+</resources>

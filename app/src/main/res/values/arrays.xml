@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="star_filter_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="language_array">
+        <item>United State</item>
+        <item>United Kingdom</item>
+        <item>Vietnamese</item>
+        <item>Chines</item>
+        <item>Indonexia</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+
+    <string-array name="country_number">
+        <item>+1</item>
+        <item>+12</item>
+        <item>+33</item>
+        <item>+84</item>
+    </string-array>
+</resources>

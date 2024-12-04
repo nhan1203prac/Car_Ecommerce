@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.NotificationProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/top_Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/backIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back_svgrepo_com" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Thiết lập thông báo"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/top_Notification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Thông báo chung"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Rung"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Âm thanh"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Ưu đãi đặc biệt"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Khuyến mãi giảm giá"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Chi trả"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Hoàn tiền"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Tự động cập nhật"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Dịch vụ mới"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:text="Mẹo mới"
+                android:textSize="25dp" />
+
+            <Switch
+                android:layout_width="60dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

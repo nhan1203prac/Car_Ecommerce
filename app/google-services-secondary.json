@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913193606005",
+    "project_id": "netflix-c6275",
+    "storage_bucket": "netflix-c6275.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913193606005:android:4193572074919e3d45113c",
+        "android_client_info": {
+          "package_name": "com.example.cartandorder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCumQLhMs453tofSAtu3nvn5rpiSM574AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

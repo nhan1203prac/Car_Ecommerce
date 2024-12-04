@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842591031837",
+    "project_id": "appchat-67f8a",
+    "storage_bucket": "appchat-67f8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842591031837:android:74a423feff6d02fa486cf4",
+        "android_client_info": {
+          "package_name": "com.example.cartandorder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwqXCKley_g8w23P4Ir19c6EwyhtCMN4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

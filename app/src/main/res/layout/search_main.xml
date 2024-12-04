@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="419dp"
+    android:layout_height="915dp">
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="373dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/search_background"
+        android:drawableStart="@drawable/search_icon"
+        android:hint="Tìm kiếm"
+        android:padding="12dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="51dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/n_svg_back" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="Gần đây"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar" />
+
+    <TextView
+        android:id="@+id/ClearAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:text="Xóa tất cả"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="400dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="381dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line">
+
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableEnd="@drawable/n_svg_x"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableEnd="@drawable/n_svg_x"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableEnd="@drawable/n_svg_x"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/item4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableEnd="@drawable/n_svg_x"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/item5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableEnd="@drawable/n_svg_x"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

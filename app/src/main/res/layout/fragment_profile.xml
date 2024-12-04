@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment">
+
+    <LinearLayout
+        android:id="@+id/top_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_car"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Cá Nhân"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btnChat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_chat"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ic_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_profile"
+        android:background="@drawable/ic_profiles"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile"
+        android:text="John Cenna"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/ic_profiles"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:text="Thông Tin Cá Nhân"
+        android:textSize="18dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/ic_notification"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:text="Thông Báo"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_Language"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/sell_product_svgrepo_com"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:text="Đăng Tải Bán Xe"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_helpcenter"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/helpcenter"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+
+        android:text="Trợ Giúp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_logout"
+        android:text="Đăng Xuất"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_helpcenter"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_helpcenter" />
+</androidx.constraintlayout.widget.ConstraintLayout>

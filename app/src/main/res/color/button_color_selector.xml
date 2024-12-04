@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu đỏ khi nhấn -->
+
+    <item  android:color="#FCA7ABA7"  android:state_activated="true"/>
+    <item android:color="@color/red" android:state_activated="false"/>
+    <!-- Màu đen khi không nhấn -->
+
+</selector>
